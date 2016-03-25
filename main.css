@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'ADAM.CG';
+  src: url('fonts/ADAM.CG_PRO.otf') format('opentype');
+}
+
+body {
+  background: url('bg.jpg');
+  background-position: center;
+}
+
+p, a, .btn {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1.slogan {
+  font-family: "ADAM.CG", sans-serif;
+  color: white;
+  font-size: 98pt;
+  line-height: 110pt;
+  margin-top: 1in;
+  color: rgba(255,255,255,0.8);
+}
+
+a.icon {
+  color: rgba(255,255,255,0.8);
+}
+
+a.red {
+  color: rgba(238,43,57,0.8);
+}
+
+a.icon:hover {
+  color: rgba(238,43,57,0.8);
+}
+
+a.none, a.none:hover {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: inherit;
+}
+
+h3.heading {
+  font-family: "ADAM.CG", sans-serif;
+  color: white;
+  margin-top: 55px;
+  font-size: 30px;
+  color: rgba(255,255,255,0.8);
+}
+
+h3.heading > span.red {
+  font-size: 45pt;
+}
+
+h2.page-header {
+    font-family: "ADAM.CG", sans-serif;
+    border-bottom: 1px solid #888888;
+}
+
+hr {
+  border-top: 1px solid #888888;
+}
+
+div.main {
+  background-color: rgba(255,255,255,0.8);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+div.content {
+  text-align: justify;
+}
+
+h1.slogan > span {
+  animation-delay:0;
+
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+.btn-ghost:hover {
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease;
+  background-color: rgba(238,43,57,0.8);
+  color: white;
+  border-color: rgba(238,43,57,0.8);
+}
+
+.wordmark-holder {
+  padding-top: 55px;
+  padding-bottom: 21px;
+}
+
+span.red {
+  -webkit-animation-delay: 0.5s;
+     -moz-animation-delay: 0.5s;
+	        animation-delay: 0.5s;
+  color: rgba(238,43,57,0.8);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
