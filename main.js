@@ -5,13 +5,13 @@ app.config(function($routeProvider, $locationProvider) {
     templateUrl: 'home.html'
   });
 
-  $routeProvider.when('/about', {
-    templateUrl: 'about.html'
-  });
-
-  $routeProvider.when('/platform', {
-    templateUrl: 'platform.html'
-  });
+  // $routeProvider.when('/about', {
+  //   templateUrl: 'about.html'
+  // });
+  //
+  // $routeProvider.when('/platform', {
+  //   templateUrl: 'platform.html'
+  // });
 
   $routeProvider.otherwise({
     redirectTo: '/'
